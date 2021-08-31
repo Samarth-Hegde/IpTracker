@@ -28,7 +28,7 @@ let tiles = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 }).addTo(mymap);
 
 // disable scroll zoom on map
-
+ mymap.dragging.disable();
 mymap.scrollWheelZoom.disable();
 mymap.on("click", function () {
   if (mymap.scrollWheelZoom.enabled()) {
