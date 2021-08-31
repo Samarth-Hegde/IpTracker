@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  background-image: url("images/pattern-bg.png");
+  height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.head {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.head h1 {
+  margin-bottom: 20px;
+}
+
+.head h1 {
+  color: #fff;
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+}
+#ip-input {
+  border: hidden;
+  border-radius: 10px, 0, 0, 10px;
+  width: 400px;
+  height: 43px;
+  padding: 10px;
+}
+
+#submit-button {
+  border: hidden;
+  width: 50px;
+  height: 43px;
+  background-color: hsl(0, 0%, 17%);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.info {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 50%;
+  border-radius: 15px;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  background-color: #fff;
+  width: 70vw;
+  height: 20vh;
+  justify-content: space-around;
+  display: flex;
+  z-index: 1;
+}
+
+/* .line {
+  position: absolute;
+  margin: 0 -75px 0 -75px;
+  top: 25%;
+  background-color: hsl(0, 0%, 59%);
+  height: 10vh;
+  width: 2px;
+} */
+
+label {
+  font-size: 0.8rem;
+  color: hsl(0, 0%, 59%);
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+
+.info-child p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#mapid {
+  display: block;
+  margin: auto;
+  height: 100vh;
+  z-index: 0;
+}
+
+.info-display {
+  display: none;
+}
