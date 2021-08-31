@@ -33,8 +33,10 @@ mymap.scrollWheelZoom.disable();
 mymap.on("click", function () {
   if (mymap.scrollWheelZoom.enabled()) {
     mymap.scrollWheelZoom.disable();
+    mymap.dragging.disable();
   } else {
     mymap.scrollWheelZoom.enable();
+    mymap.dragging.enable();
   }
 });
 
