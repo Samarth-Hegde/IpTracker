@@ -18,7 +18,7 @@ let zoom = 1;
 
 // initializing leaflet map
 
-let mymap = L.map("mapid").setView([0, 0], 1.2, false);
+let mymap = L.map("mapid").setView([0, 0], 1.5, false);
 
 let marker = L.marker([0, 0]).addTo(mymap);
 
